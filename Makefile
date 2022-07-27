@@ -1,9 +1,7 @@
-all: server
-
-server: server.c
-	gcc server.c -Wall -Werror -Wextra -g -o server
+practice:  practice.c
+	gcc  practice.c -g  -o  practice
 
 clean:
-	rm -f server
+	rm -f practice
 
-re: clean all
+re: clean practice
